@@ -1,0 +1,15 @@
+version: '3.5'
+
+services:
+  jupyterone:
+    build:
+     context: .
+    image: jupyternotebook
+    container_name: jupyternotebook_dev
+    restart: always
+    volumes:
+      - ~/notebooks:/home/jovyan/work
+    ports:
+      - "8888:8888"
+      - "8889:8889"
+      - "6006:6006"
