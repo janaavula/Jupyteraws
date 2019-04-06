@@ -6,6 +6,8 @@ LABEL maintainer="Janardhan Avula jana.avula@gmail.com"
 # Switch to root
 USER root
 
+mkdir /home/jovyan/
+chmod 777 /home/jovyan/
 
 # Jupyter listens port: 8888, 8889 ... Tensorboard 6006
 EXPOSE 8888 8889 6006
