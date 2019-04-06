@@ -8,6 +8,7 @@ services:
     container_name: jupyternotebook_dev
     restart: always
     volumes:
+      - ~/work:/home/jovyan/Development
       - ~/notebooks:/home/jovyan/
     ports:
       - "8888:8888"
