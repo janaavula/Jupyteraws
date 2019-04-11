@@ -1,4 +1,4 @@
-# Simple Jupyter with Docker
+# Jupyter Notebook Setup with Docker
 
 How to use Docker to serve a Jupyter notebook from AWS
 ```
